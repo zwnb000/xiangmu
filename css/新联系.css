@@ -1,0 +1,288 @@
+.header .logo{
+    margin-top: 23px;
+    float: left;
+}
+.header{
+    height: 80px;
+}
+.header .logo a{
+    float: left;
+    height:35px;
+    width: 131px;
+    background-image: url("../images/qq_logo_2x.png");
+    background-size: 131px 35px;
+    overflow: hidden;
+    text-indent: -999px;
+}
+.header .search {
+    float: left;
+    margin: 23px 0 0 318px;
+    border: 1px solid #dfdfdf;
+    background-color: #f3f6f8;
+    border-radius: 10px;
+}
+.header .search .menu {
+    float: left;
+    position: relative;
+}
+.header .search .menu div{
+    line-height: 32px;
+    width: 68px;
+    height: 32px;
+    text-align: center;
+    color: #404040;
+    cursor: pointer;
+    font-size: 14px;
+    background-image: url("../images/so_arr.png");
+    background-repeat: no-repeat;
+    background-position: 57px 13px;
+}
+.header .search .menu div:hover {
+    background-position: 53px -13px;
+}
+.header .search .menu ul{
+    position: absolute;
+    width: 28px;
+    top: 31px;
+    left: 0;
+    padding: 0 20px;
+    display: none;
+    color: white;
+}
+.header .search .menu:hover ul{
+    display: block;
+}
+.header .search .menu li{
+    color: #a8a8a8;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 3px solid #FFF;
+
+}
+.header .search .menu li:hover{
+    color: #404040;
+    border-bottom-color: #f2630a;
+}
+.header .search .txt{
+    float: left;
+}
+.header .search .txt input{
+    width: 320px;
+    height: 24px;
+    line-height: 22px;
+    padding: 4px 10px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}.header .search .btn{
+    float: left;
+ }
+ .header .search .btn input{
+     color: #fff;
+     background-color: #1479d7;
+     font-size: 16px;
+     height: 34px;
+     padding: 0 23px;
+     top: -1px;
+     left: 1px;
+     cursor: pointer;
+     border-radius: 16px;
+     outline: none;
+     position: relative;
+ }
+ .header .logobr{
+     float: right;
+     margin-top: 22px;
+
+ }
+.header .logobr li{
+    float: left;
+    margin-right: 5px;
+}
+.loginBar .logobr li.item-login{
+    margin-right:  3px;
+}
+.header .logobr li a{
+    float: left;
+    background-image: url("../images/icons.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+}
+.header .logobr li.item-qzone a{
+    width: 35px;
+    height: 40px;
+    background-position: 0 -93px;
+}
+.header .logobr li.item-qzone a:hover{
+    background-position: 0 -144px;
+}
+.header .logobr li.item-qmail a{
+    width: 35px;
+    height: 40px;
+    background-position: 2px -188px;
+}
+.header .logobr li.item-qmail a:hover{
+    background-position: 2px -238px;
+}
+.header .logobr li.item-login a{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #ededed;
+    font-size: 14px;
+    line-height: 35px;
+    background-color: #f5f5f5;
+    color: #60a5e4;
+    text-indent: 0;
+}
+.header .logobr li.item-login a:hover{
+    border-color: #cae0f3;
+}
+.nav{
+    background-color: #1479d7;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 3px;
+    position: relative;
+}
+.nav ul{
+    padding-left: 20px;
+}
+.nav ul li{
+    text-align: center;
+    float: left;
+    width: 79px;
+    height: 50px;
+    line-height: 50px;
+}
+.nav > ul >li a{
+    padding: 4px 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav > ul >li a:hover{
+    color: #14539a;
+    background-color: #cbe1ed;
+}
+.nav .more{
+    float: left;
+}
+.nav .more > div{
+    width: 80px;
+    height: 51px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-image: url("../images/nav_arr.png");
+    background-repeat: no-repeat;
+    background-position:67px 22px ;
+}
+.nav .more >div:hover{
+    background-position: 67px -7px;
+}
+.nav .more >ul{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 1400px;
+    background-color: #f9fbfc;
+    padding: 13px 0 13px 19px;
+    border: 1px solid #dfdfdf;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    display: none;
+    border-top: none;
+    z-index: 3;
+}
+.nav .more:hover >ul{
+    display: block;
+}
+.nav .more > ul li{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+}
+.nav .more > ul li a{
+    color:#455569;
+    text-decoration: none;
+}
+.nav .more > ul li a:hover{
+   color:  #0c82ff
+}
+.ad .left{
+    width: 920px;
+    height: 75px;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+}
+.ad .right{
+    width: 440px;
+    height: 75px;
+    cursor: pointer;
+    float:right;
+    overflow: hidden;
+}
+.main >div{
+    width: 440px;
+    float: left;
+
+}
+.main > div:first-child{
+    margin-right: 40px;
+}
+.main > div + div + div{
+    float: right;
+}
+.newbox .title{
+    height: 43px;
+    border-bottom: 1px solid #cae0f3;
+}
+.newbox .title h2{
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 20px;
+    position: relative;
+}
+.newbox .title:first-child{
+    margin-left: 0;
+
+}
+.newbox .title h2 a{
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 20px;
+    font-weight: normal;
+    float: left;
+}
+.newbox .title h2.active a{
+    color: #1479d7;
+    border-bottom: 4px solid #1479d7;
+}
+.newbox .title h2 + h2:before{
+    content: '.';
+    width: 0;
+    height: 20px;
+    overflow: hidden;
+    border-left: 1px solid #e1e1e2;
+    position: absolute;
+    left: -20px;
+    top:10px
+}
+.newbox .content li{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.newbox .content li.istop {
+    padding: 14px 0 7px;
+}
+

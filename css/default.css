@@ -1,0 +1,23 @@
+/*放置整站通用的样式*/
+.clear:after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.clear {
+    *zoom: 1;
+}
+
+.wraper{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+.mt30{
+    margin-top: 30px!important;
+}
